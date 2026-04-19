@@ -1,7 +1,5 @@
 package GroupMK_1.TryResources;
 
-import java.io.FileReader;
-
 class AgeLessThan18Exception extends Exception {
     AgeLessThan18Exception() {
         System.out.println("Age Cannot be less than 18");
