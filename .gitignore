@@ -1,0 +1,40 @@
+# 🔹 IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+out/
+
+# 🔹 Build directories
+build/
+target/
+out/
+
+# 🔹 Compiled Java files
+*.class
+
+# 🔹 Logs
+*.log
+
+# 🔹 OS files (Windows)
+Thumbs.db
+Desktop.ini
+
+# 🔹 VS Code (if you switch sometimes)
+.vscode/
+
+# 🔹 Environment files
+.env
+
+# 🔹 Maven
+dependency-reduced-pom.xml
+
+# 🔹 Gradle
+.gradle/
+gradle-app.setting
+!gradle-wrapper.jar
+
+# 🔹 Mac (just in case repo is shared)
+.DS_Store
+
+# 🔹 Your custom ignore
+src/com/manas/core/
