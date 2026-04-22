@@ -13,11 +13,11 @@ class Student implements Serializable {
 }
 public class StoreObject {
     public static void main(String[] args) throws IOException{
-//        Student s = new Student("Manas", 1);
-//        ObjectOutputStream oos = new ObjectOutputStream(new FileOutputStream("data.txt"));
-//        oos.writeObject(s);
-//        oos.writeObject(new Student("Person2", 2));
-//        oos.writeObject(new Student("Person3", 3));
+        Student s = new Student("Manas", 1);
+        ObjectOutputStream oos = new ObjectOutputStream(new FileOutputStream("data.txt"));
+        oos.writeObject(s);
+        oos.writeObject(new Student("Person2", 2));
+        oos.writeObject(new Student("Person3", 3));
 
         ObjectInputStream ois = new ObjectInputStream(new FileInputStream("data.txt"));
         while (true){
