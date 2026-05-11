@@ -36,5 +36,5 @@ gradle-app.setting
 # 🔹 Mac (just in case repo is shared)
 .DS_Store
 
-# 🔹 Your custom ignore
-src/com/manas/core/
+## 🔹 Your custom ignore
+#group-RA/src/com/manas/core/
